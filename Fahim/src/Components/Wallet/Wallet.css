@@ -1,0 +1,97 @@
+
+.header a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(59, 59, 207);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 100px;
+    padding-left: 100px;
+  
+}
+
+.connectBTN {
+    width: 280px;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 800px;
+    color: white;
+    background-color: var(--color-bg);
+    border: 2px solid rgb(86, 88, 226);
+    border-radius: 20px 0 20px 0px ;
+    
+    
+}
+
+.connectBTN:hover {
+    color: white;
+    background-color: var(--color-blue);
+}
+
+.NoWallet{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+
+.noMetaMaskBTN {
+    width: 180px;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    background-color: var(--color-bg);
+    border: 2px solid rgb(86, 88, 226);
+    border-radius: 20px 0 20px 0px;
+    margin-left: 50px;
+   
+}
+
+.noMetaMaskBTN:hover {
+    color: white;
+    background-color: var(--color-blue); /* Adjust hover background color */
+}
+
+.hint{
+    font-size: smaller;
+    font-style: italic;
+    color: #f7f7f7;
+    margin-left: 20px;
+}
+
+a:hover{
+    color: white !important;
+}
+
+
+
+/* =========media querries========== */
+@media screen and (max-width: 420px) {
+
+    .header {
+        justify-content: center;
+        padding-right: 0px;
+        padding-left: 0px;
+        gap: 30px;
+    }
+    .connectBTN {
+        width: 130px;
+        height: 32px;
+        font-size: 12px;
+    }
+    .connectBTN:hover{
+        color: white;
+        background-color: var(--color-bg);
+    }
+}
+
+
