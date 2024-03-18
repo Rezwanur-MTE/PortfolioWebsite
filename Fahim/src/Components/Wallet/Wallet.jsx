@@ -41,7 +41,7 @@ function Wallet({ saveState }) {
     }
   };
   return (
-    <>
+    <div className="header-con">
       <div className="header">
         <div className="NoWallet">
           <button className="noMetaMaskBTN">
@@ -54,7 +54,7 @@ function Wallet({ saveState }) {
           {connected ? id : "Connect MetaMask"}
         </button>
       </div>
-    </>
+    </div>
   );
 }
 
