@@ -6,27 +6,24 @@
 
 .header {
     width: 100%;
-    height: 80px;
+    height: 8rem;
     background-color: rgb(59, 59, 207);
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding: 0 10rem;
   
 }
 
 .connectBTN {
-    width: 280px;
-    height: 38px;
-    font-size: 14px;
+    
+    padding: 1.2rem 1.8rem ;
+    font-size: 1.4rem;
     font-weight: 400;
-    margin-left: 800px;
     color: white;
     background-color: var(--color-bg);
-    border: 2px solid rgb(86, 88, 226);
-    border-radius: 20px 0 20px 0px ;
+    border: 0.2rem solid rgb(86, 88, 226);
+    border-radius: 2rem 0 2rem 0px ;
     
     
 }
@@ -39,21 +36,19 @@
 .NoWallet{
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
+    align-items: center;
+    gap:1.8rem;
 
 }
 
 .noMetaMaskBTN {
-    width: 180px;
-    height: 38px;
+   padding: 1.2rem 1.8rem;
     font-size: 14px;
     font-weight: 400;
     color: white;
     background-color: var(--color-bg);
     border: 2px solid rgb(86, 88, 226);
-    border-radius: 20px 0 20px 0px;
-    margin-left: 50px;
-   
+    border-radius: 2rem 0 2rem 0px;
 }
 
 .noMetaMaskBTN:hover {
@@ -65,7 +60,6 @@
     font-size: smaller;
     font-style: italic;
     color: #f7f7f7;
-    margin-left: 20px;
 }
 
 a:hover{
@@ -78,20 +72,32 @@ a:hover{
 @media screen and (max-width: 420px) {
 
     .header {
-        justify-content: center;
-        padding-right: 0px;
-        padding-left: 0px;
-        gap: 30px;
+        justify-content: space-between;
+        padding: 0 0.3rem;
     }
-    .connectBTN {
-        width: 130px;
-        height: 32px;
-        font-size: 12px;
+    .connectBTN:hover{
+        color: white;
+        background-color: var(--color-bg);
+    }
+    .NoWallet{
+        flex-direction: column;
+        
+    }
+    .hint{
+        display: none;
+    }
+    
+}
+
+
+@media screen  and (max-width: 768px){
+
+    .header {
+        padding: 0 2rem;
     }
     .connectBTN:hover{
         color: white;
         background-color: var(--color-bg);
     }
 }
-
 
