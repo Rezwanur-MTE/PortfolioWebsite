@@ -77,7 +77,7 @@
   background-color: var(--color-blue);
   padding:1.2rem 4.8rem;
   border: 2px solid rgb(86, 88, 226);
-  border-radius: 20px 0 20px 0px;
+  border-radius: 2rem 0 2rem 0px;
   font-size: 2.2rem;
 }
 
@@ -99,8 +99,8 @@
 
 .hero-text .connect-btn .icon {
   color: black;
-  width: 40px;
-  height: 40px;
+  width: 4rem;
+  height: 4rem;
 }
 
 .text-align {
@@ -117,7 +117,7 @@
   .container {
     flex-direction: column-reverse !important;
     justify-content: center;
-    gap: 20px !important;
+    gap: 2rem !important;
   }
 
   .hero-img {
@@ -125,31 +125,31 @@
   }
 
   .hero-img .img-container img {
-    width: 300px;
-    margin-top: 40px;
+    width: 30rem;
+    margin-top: 4rem;
   }
 
   .hero-text {
     width: 100%;
-    margin-top: 40px;
-    padding: 0 20px 0 20px;
+    margin-top: rem;
+    padding: 0 2rem 0 2rem;
     text-align: center;
   }
 
   .hero-text p {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
 
   .hero-text p span {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
 
   .hero-text h1 {
-    font-size: 32px;
+    font-size: 3.2rem;
   }
 
   .hero-text h3 {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 1.4rem;
+    line-height: 2rem;
   }
 }
