@@ -23,3 +23,17 @@ html{
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
+body{
+  background-color: var(--color-bg);
+}
+
+@media screen and (max-width: 420px) {
+    html{
+        font-size: 50%;
+    }
+}
+@media screen  and (max-width: 768px){
+    html{
+        font-size: 56%;
+    }
+}
