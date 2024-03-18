@@ -10,7 +10,7 @@ const Contact=()=>{
                 Interested?
                 Let's Get In Touch!
             </h1>
-            <a href="https://gateway.pinata.cloud/ipfs/Qmcgwhn9fmGHtVsg5CXnVPTUWo6uMFgowsbSY6zVWd9Wxh" target='_blank' rel="noopener noreferrer" className='linker'>
+            <a href="https://gateway.pinata.cloud/ipfs/QmVogTq3PhjXkzxfQ9KGmi3LLL7QShTLJPQ8aTFPZpH1ws" target='_blank' rel="noopener noreferrer" className='linker'>
                 <button className="downlodeBTN">
                     View Resume
                 </button>
